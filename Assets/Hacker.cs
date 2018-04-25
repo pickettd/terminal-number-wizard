@@ -82,7 +82,7 @@ public class Hacker : MonoBehaviour {
 		guess = (max + min) / 2;
 		Terminal.WriteLine("Higher or lower than " + guess);
 		Terminal.WriteLine("Up = higher, Down = lower,");
-		Terminal.WriteLine("Enter = equal");
+		Terminal.WriteLine("Equal = equal");
 	}
 
 }
